@@ -1,0 +1,40 @@
+/* 탑배너 박스 위치 조정 */
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+/* 탑배너 크기 및 기준선 대입*/
+.header .top_banner {
+    border-bottom: 1px solid #ddd;
+    line-height: 40px;
+    
+
+}
+/* 박스 오른쪽 위치 */
+.header .top_banner span {
+    margin: 0 0 0 auto;
+}
+
+/* 글자와 icon 구분선 및 margin padding */
+.header .top_banner a {
+    margin-left: 0 0 0 10px;
+    padding: 0 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+/* .gnb 기준 위치 조정*/
+.header .gnb {
+    margin: 0 0 0 auto;
+}
+/* gnb 리스트값 속성 */
+.header .gnb>ul {
+    display: flex;
+    gap:30px;
+    line-height: 90px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
