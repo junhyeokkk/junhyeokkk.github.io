@@ -2074,7 +2074,6 @@ input, select, textarea {
 			-webkit-transition: opacity 0.3s ease-in-out;
 			-ms-transition: opacity 0.3s ease-in-out;
 			transition: opacity 0.3s ease-in-out;
-			background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
 			border-radius: 0.5em;
 			content: '';
 			display: block;
