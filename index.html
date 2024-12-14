@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
 	<style>
-		/* 통일된 h2 스타일 */
 		section h2 {
 			text-align: center;
 			font-size: 2.2rem;
@@ -20,13 +19,42 @@
 			margin-right: auto;
 		}
 	
-		/* h2 애니메이션 효과 추가 (옵션) */
 		section h2:hover {
 			color: #2980b9;
 			transition: color 0.3s ease-in-out;
 		}
+
+
+		.badge {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: #34495e; 
+			color: #f1c40f; 
+			font-size: 0.85rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 6px 12px;
+			border-radius: 20px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			letter-spacing: 0.5px;
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.badge:hover {
+			transform: scale(1.1);
+			box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		.badge span {
+			font-size: 1rem;
+		}
+
 	</style>
-	
+	  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'><text x='0' y='32' font-size='32'>😊</text></svg>">
 </head>
 <body class="is-preload">
 
@@ -130,22 +158,26 @@
         <section id="three">
 			<h2>Projects</h2>
 			<div class="row">
-				 <!-- AntWork 그룹웨어 프로젝트 (Front) -->
-				 <article class="col-6 col-12-xsmall work-item">
+			<!-- AntWork 그룹웨어 프로젝트 (Front) -->
+				<article class="col-6 col-12-xsmall work-item" style="position: relative;">
 					<a href="https://github.com/greenlotte4/lotte-2nd-project-front-team3" target="_blank" class="image fit thumb">
 						<span style="font-size: 4rem;">🖥️</span>
 					</a>
 					<h3>AntWork 그룹웨어 프로젝트 (Front)</h3>
 					<p>React와 Tailwind CSS를 활용하여 그룹웨어의 직관적인 UI를 개발하고, 비대면 협업을 지원하는 기능을 구축.</p>
+					<!-- 세련된 "개발 중" 뱃지 -->
+					<div class="badge">⚙️ 개발 중</div>
 				</article>
-		
+
 				<!-- AntWork 그룹웨어 프로젝트 (Back) -->
-				<article class="col-6 col-12-xsmall work-item">
+				<article class="col-6 col-12-xsmall work-item" style="position: relative;">
 					<a href="https://github.com/greenlotte4/lotte-2nd-project-back-team3" target="_blank" class="image fit thumb">
 						<span style="font-size: 4rem;">💾</span>
 					</a>
 					<h3>AntWork 그룹웨어 프로젝트 (Back)</h3>
 					<p>Spring Boot와 JPA를 사용하여 사용자 관리, 일정 관리, 파일 공유 등 그룹웨어의 핵심 백엔드 로직을 구현.</p>
+					<!-- 세련된 "개발 중" 뱃지 -->
+					<div class="badge">⚙️ 개발 중</div>
 				</article>
 		
 				<!-- LotteOn 쇼핑몰 프로젝트 -->
